@@ -1,4 +1,6 @@
 *.out
-*.txt
+#*.txt
 *.swp
 test.c
+.idea
+/cmake-build-debug

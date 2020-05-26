@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 2.8)
+project(The-C-Programming-Language)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
+add_subdirectory(chapter-1-introduction)
+add_subdirectory(chapter-2-types-operators-expressions)
+add_subdirectory(chapter-3-control-flow)
+add_subdirectory(chapter-4-functions-and-program-structure)
+add_subdirectory(chapter-5-pointers-and-arrays)
+add_subdirectory(chapter-6-structures)
+add_subdirectory(chapter-7-input-and-output)
+add_subdirectory(chapter-8-the-unix-system-interface)
